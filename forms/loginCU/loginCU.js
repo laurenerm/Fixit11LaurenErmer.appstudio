@@ -1,4 +1,5 @@
 
+let req1 = ""
 
 btnNextPage.onclick=function(){
   ChangeForm(favFoods)
@@ -14,7 +15,7 @@ btnLogin.onclick=function(){
       if (req1.responseText = 1) {
         ChangeForm(favFoods)
         }
-      else {
+      else if (req1.responseText = 0) {
         lblResponse.value = "That login did not work. Please try again"
      }
         
