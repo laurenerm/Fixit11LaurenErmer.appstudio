@@ -1,3 +1,4 @@
+
 let goodFoods = ["pizza","apples","cookies","sushi","pasta","steak"]
 favFoods.onshow=function(){
               lstgFood.clear()
@@ -8,4 +9,8 @@ favFoods.onshow=function(){
 
 lstgFood.onclick=function(){
   lblFood.value = `You picked ${goodFoods[lstgFood.value]}- that's a great choice!`
+}
+
+Button1.onclick=function(){
+  ChangeForm(dessertVoting)
 }

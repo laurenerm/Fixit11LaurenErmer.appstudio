@@ -16,7 +16,7 @@
         "forms", 
         "describeYou", 
         "Elements", 
-        "lblPrompt2.json"
+        "lblPers.json"
       ]
     }, 
     {
@@ -25,7 +25,25 @@
         "forms", 
         "describeYou", 
         "Elements", 
-        "rdoPersonType.json"
+        "rdoPersonality.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "describeYou", 
+        "Elements", 
+        "btnChange.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "describeYou", 
+        "Elements", 
+        "lblPersonality.json"
       ]
     }
   ], 

@@ -33,7 +33,7 @@
   "modal": "false", 
   "onhide": "", 
   "onkeypress": "", 
-  "onresize": "", 
+  "onresize": "mobileNav.onresize()", 
   "onshow": "", 
   "openMode": "none", 
   "parentForm": "", 
